@@ -1,0 +1,41 @@
+.navbar-dark{
+    background-color: rgba(0, 0, 0, 0.800)!important;
+}
+
+.nav-link{
+    color: white!important;
+    font-size: 17px;
+    opacity: .9;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover{
+    opacity: 1;
+}
+
+.navbar-dark .navbar-toggler{
+    color:transparent;
+    border-color: transparent;
+}
+
+.navbar-toggler-icon{
+    background-image: url(../../assets/menu.svg)!important;
+}
+
+nav{
+    transition: 0.5s;
+}
+
+img{
+    transition: 0.5s;
+}
+
+nav.sticky{
+    background-color: #000!important
+}
+
+nav.sticky img{
+    width: 50px;
+}
+

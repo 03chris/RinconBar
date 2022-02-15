@@ -1,0 +1,22 @@
+.carta{
+    background-color: #000000;
+}
+
+.buttons-categories a{
+    font-size: 25px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 800px){  
+    .buttons-categories{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .buttons-categories a{
+        width: 50%;
+        align-self: center;
+        font-size: 17px;
+    }
+}

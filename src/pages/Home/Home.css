@@ -1,0 +1,40 @@
+.background-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),
+    url(../../assets/barra.jpg)no-repeat top fixed;  
+    background-size: cover; 
+    color: white;
+    height: 100vh; 
+}
+
+.background-container p{
+    font-size: 100px;
+    user-select: none;
+}
+
+.background-container .button-home{
+    font-size: 30px;
+    padding: 5px 40px;
+}
+
+.button-home{
+    color: white;
+    text-decoration: none;
+    border: #fff 1.5px solid;
+    transition: all .5s;
+}
+
+.button-home:hover{
+    color: black;
+    background-color: white;
+}
+
+@media screen and (max-width: 800px){
+    .background-container p{
+        font-size: 70px;
+    }
+
+    .background-container .button-home{
+        font-size: 25px;
+        padding: 5px 40px;
+    }
+} 

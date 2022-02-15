@@ -1,0 +1,25 @@
+.footer{
+    background-color: #000000;
+    padding: 1rem 0;
+    margin-top: auto;
+    text-align: center;
+}
+
+.footer img{
+    width: 10%;
+}
+
+.footer p{
+    color: white;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 800px){
+    .footer img{
+        width: 20%;
+    }
+}

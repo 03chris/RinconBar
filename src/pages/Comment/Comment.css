@@ -1,0 +1,12 @@
+.comment-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../../assets/comment.jpg)no-repeat center fixed;  
+    background-size: cover; 
+    color: white;
+    height: 80vh; 
+}
+
+.comment-container p{
+    font-size: 25px;
+    width: 90%;
+}

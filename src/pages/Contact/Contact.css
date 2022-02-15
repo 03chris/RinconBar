@@ -1,0 +1,64 @@
+.contact{
+    background-color: #000000;
+    color: white;
+    margin-top: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-container{
+    text-align: start!important;
+}
+
+.contact img{
+    width: 200px;
+    padding-top: 40px;
+}
+
+.contact-title{
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.correo{
+    font-weight: 200;
+}
+
+.correo p{
+    opacity:0.9;
+    font-size:13px;
+}
+
+.redes{
+    font-weight: 200;
+}
+
+.contact a{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.copyright{
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .contact-container{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center!important;
+    }
+
+    .contact-title{
+        padding-top: 30px;
+    }
+
+    .contact img{
+        width: 100px;
+        padding-top: 20px;
+    }
+}

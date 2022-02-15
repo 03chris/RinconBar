@@ -1,0 +1,13 @@
+.img-detail{
+    max-width: 100%;
+}
+
+.text-detail{
+    text-align: start!important;
+}
+
+@media screen and (max-width: 800px){
+    .text-detail{
+        text-align: center!important;
+    }
+}

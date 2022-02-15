@@ -1,0 +1,41 @@
+.menu{
+    text-align: center;
+}
+
+.title-menu{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.sub-title{
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.btn-menu{
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 30px;
+    transition: all .5s;
+    display: inline-block;
+    color: #000000;
+    letter-spacing: 10px;
+    border: #000000 2px solid;
+}
+
+.btn-menu:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.cards{
+    font-family: 'Poppins';
+}
+
+@media screen and (max-width: 800px){
+    .btn-menu{   
+        padding: 5px 35px;
+        font-size: 25px;
+    }
+} 

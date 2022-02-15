@@ -1,0 +1,32 @@
+.card-img{
+    object-fit: cover;
+    max-height: 200px;
+}
+
+.card:hover{
+    -webkit-box-shadow: 0 0 70px 0 rgb(0 0 0 / 80%);
+    box-shadow: 0 0 70px 0 rgb(0 0 0 / 80%);
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.card img{ 
+    background-color: black;
+    transition: all .5s;
+}
+
+.card{
+    background-color: black;
+    overflow-x: hidden;
+    transition: all 1s;
+}
+
+.card-body{
+    z-index: 1;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
