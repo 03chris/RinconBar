@@ -9,10 +9,9 @@ import Birras from '../assets/menu/birras.jpg'
 import Quilombera from '../assets/menu/quilombera.jpg'
 import Bajonera from '../assets/menu/BAJONERA.jpg'
 import Tucson from '../assets/menu/tucson.jpg'
-import Golosa from '../assets/menu/GOLOSA.jpg'
+import Extra from '../assets/menu/EXTRA.jpg'
 import MegaPapas from '../assets/menu/MEGA-PAPAS.jpg'
 import TablaBelgica from '../assets/menu/tabla-belgica.jpg'
-import Papax from '../assets/menu/papax.jpg'
 
 const products = [
     {
@@ -20,7 +19,6 @@ const products = [
         title: 'ATR',
         description: 'Medallón de carne vacuna, queso cheddar, panceta, huevo, cebolla caramelizada, barbacoa.', 
         image: ATR, 
-        price: 50,
         type: 'hamburguesas',
         featured: false
     },
@@ -29,7 +27,6 @@ const products = [
         title: 'Doble Nelson', 
         description: '2 Medallones de carne vacuna, doble queso cheddar, doble panceta, huevo, cebolla caramelizada, barbacoa.',
         image: DobleNelson,
-        price: 50,
         type: 'hamburguesas',
         featured: true
     },
@@ -38,7 +35,6 @@ const products = [
         title: 'Macquiavelica', 
         description: 'Hamburguesa triple carne, triple danbo, jamón, lluvia de mac & cheese + bacon + lluvia de verdeo.',
         image: Macquiavelica, 
-        price: 50,
         type: 'hamburguesas',
         featured: false
     },
@@ -47,7 +43,6 @@ const products = [
         title: 'Taparterias',
         description: 'Triple carne, triple danbo, bacon, montaña de papas fritas + baño de cheddar y bacon picado.', 
         image: Taparterias, 
-        price: 50,
         type: 'hamburguesas',
         featured: false
     },
@@ -56,7 +51,6 @@ const products = [
         title: 'Tranqui 120', 
         description: 'Doble carne, doble provoleta, bacon, tomate y pesto.',
         image: Tranqui120, 
-        price: 50,
         type: 'hamburguesas',
         featured: false
     },
@@ -65,7 +59,6 @@ const products = [
         title: 'Triple Cheese Bacon',
         description: 'Hamburguesa con triple carne, triple cheddar y triple bacon.', 
         image: TripleCheeseBacon, 
-        price: 50,
         type: 'hamburguesas',
         featured: false
     },
@@ -74,7 +67,6 @@ const products = [
         title: 'Quilombera', 
         description: 'Doble carne, doble cheddar, bacon, salsa especial.',
         image: Quilombera, 
-        price: 50,
         type: 'hamburguesas',
         featured: true
     },
@@ -83,7 +75,6 @@ const products = [
         title: 'Pintas', 
         description: 'Cervezas artesanales, ideales para arrancar a tomar tranqui.',
         image: Birras, 
-        price: 50,
         type: 'bebidas',
         featured: true
     },
@@ -92,7 +83,6 @@ const products = [
         title: 'Vikinga', 
         description: 'Milanesa de ternera / pechuga de pollo, cheddar, papas fritas + cheddar, bacon, huevos y verdeo.',
         image: Vikinga, 
-        price: 50,
         type: 'milanesas',
         featured: false
     },
@@ -101,7 +91,6 @@ const products = [
         title: 'Bajonera', 
         description: 'Cuádruple carne, triple danbo, doble jamón, bacon y huevo frito y alioli.',
         image: Bajonera, 
-        price: 50,
         type: 'hamburguesas',
         featured: false
     },
@@ -110,16 +99,14 @@ const products = [
         title: 'Tucson', 
         description: 'Combo mega burger y mega papas.',
         image: Tucson, 
-        price: 50,
         type: 'hamburguesas',
         featured: false
     },
     {
         id: '12', 
-        title: 'Golosa', 
+        title: 'Extra', 
         description: 'Triple carne, triple cheddar, bacon y cebolla frita + alioli.',
-        image: Golosa, 
-        price: 50,
+        image: Extra, 
         type: 'hamburguesas',
         featured: false
     },
@@ -128,7 +115,6 @@ const products = [
         title: 'Mega Papas', 
         description: 'Cheddar, panceta y verdeo',
         image: MegaPapas, 
-        price: 50,
         type: 'parapicar',
         featured: false
     },
@@ -137,7 +123,6 @@ const products = [
         title: 'Tabla Belgica', 
         description: 'La imagen habla por si sola, nuggets, rabas, salsas, que mas podes pedir.',
         image: TablaBelgica, 
-        price: 50,
         type: 'parapicar',
         featured: true
     }

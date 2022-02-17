@@ -2,6 +2,23 @@
     background-color: #000000;
 }
 
+.buttons-categories .categories{
+    color: white;
+    text-decoration: none;
+    border: #fff 1.5px solid;
+    transition: all .5s;
+    font-size: 17px;
+    padding: 10px 30px;
+    line-height: 50px;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.buttons-categories .categories:hover{
+    color: black;
+    background-color: white;
+}
+
 .buttons-categories a{
     font-size: 25px;
     margin: 10px;
@@ -14,9 +31,11 @@
         align-items: flex-start;
     }
 
-    .buttons-categories a{
+    .buttons-categories .categories{
         width: 50%;
         align-self: center;
-        font-size: 17px;
+        font-size: 13px;
+        padding: 10px 30px;
+        line-height: 30px;
     }
 }

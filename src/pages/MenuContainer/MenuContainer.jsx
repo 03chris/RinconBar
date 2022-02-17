@@ -31,11 +31,11 @@ const MenuContainer = () => {
             <div className="menu carta container-fluid">
                 <h1 className="title-menu text-white" style={{marginTop: '140px'}}>CARTA</h1> 
                 <div className="buttons-categories mb-3">
-                    <Link className='btn btn-outline-light' to={`/all`}>Todos</Link>
-                    <Link className='btn btn-outline-light' to={`/categorias/hamburguesas`}>Hamburguesas</Link>
-                    <Link className='btn btn-outline-light' to={`/categorias/milanesas`}>Milanesas</Link>
-                    <Link className='btn btn-outline-light' to={`/categorias/parapicar`}>Para Picar</Link>
-                    <Link className='btn btn-outline-light' to={`/categorias/bebidas`}>Bebidas</Link>
+                    <Link className='categories' to={`/all`}>Todos</Link>
+                    <Link className='categories' to={`/categorias/hamburguesas`}>Hamburguesas</Link>
+                    <Link className='categories' to={`/categorias/milanesas`}>Milanesas</Link>
+                    <Link className='categories' to={`/categorias/parapicar`}>Para Picar</Link>
+                    <Link className='categories' to={`/categorias/bebidas`}>Bebidas</Link>
                 </div>
                 { 
                 loading ? 

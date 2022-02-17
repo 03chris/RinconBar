@@ -3,17 +3,12 @@ import Logo from "../../assets/LogoWhite.png"
 import { Container, Nav, Navbar} from 'react-bootstrap'
 import { HashLink } from "react-router-hash-link"
 import { useState } from 'react'
-import Bag from '../Bag/Bag'
-import { Link } from 'react-router-dom'
-import { useParams } from 'react-router-dom'
 
 const NavBar = () => {
     const [background, setBackground] = useState(false);
 
-    const home = useParams()
-
     const changeBackground = () =>{
-        if(window.scrollY > 0 && home){
+        if(window.scrollY > 0){
             setBackground(true);
         }else{
             setBackground(false);
