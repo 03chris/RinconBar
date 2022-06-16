@@ -46,7 +46,7 @@ const MenuContainer = () => {
                     </div> 
                 : 
                     <div className='cards row bg-white'>
-                        <h1 className='sub-title text-black mt-2'>{type}</h1>
+                        <h1 className='sub-title text-black mt-2'>{type ? type : "TODOS"}</h1>
                         <Cards menu={menu} key={menu.id}/>
                     </div>
                 }
